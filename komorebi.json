@@ -1,0 +1,79 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.28/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
+  "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "default_workspace_padding": 2,
+  "default_container_padding": 2,
+  "border": false,
+  "border_width": 5,
+  "border_offset": -1,
+  "border_colours": {
+    "single": "#f08651",
+    "stack": "#00a542",
+    "monocle": "#ff3399",
+    "unfocused": "#013d94"
+  },
+  "stackbar": {
+    "height": 10,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 100,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  },
+
+  "display_index_preferences": {
+    "0": "AUS24AF-5&4f5203a&0&UID184576",
+    "1": "SAC952D-5&4f5203a&0&UID184581"
+  },
+
+  "monitors": [
+    {
+      "work_area_offset": {
+        "bottom": 48,
+        "left": 0,
+        "right": 0,
+        "top": 0
+      },
+      "workspaces": [
+        {
+          "name": "P1", "layout": "BSP"
+        },
+        {
+          "name": "P2", "layout": "BSP"
+        },
+        {
+          "name": "P3", "layout": "BSP"
+        },
+        {
+          "name": "P4", "layout": "BSP"
+        }
+      ]
+    },
+    {
+      "workspaces": [
+        {
+          "name": "S1", "layout": "Rows"
+        },
+        {
+          "name": "S2", "layout": "Rows"
+        },
+        {
+          "name": "S3", "layout": "Rows"
+        },
+        {
+          "name": "S4", "layout": "Rows"
+        }
+      ]
+    }
+  ],
+
+  "animation": {
+    "enabled": false
+  },
+  "transparency": true,
+  "transparency_alpha": 220
+}

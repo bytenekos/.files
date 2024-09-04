@@ -1,0 +1,32 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    {
+      "type": "custom",
+      "format": "Modified Windows 11 Enterprise",
+      "key": "OS"
+    },
+    "host",
+    "kernel",
+    "uptime",
+    "shell",
+    "display",
+    "de",
+    {
+      "type": "custom",
+      "format": "Komorebi + YASB",
+      "key": "WM"
+    },
+    "wmtheme",
+    "theme",
+    "font",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "localip",
+    "locale",
+    "colors"
+  ]
+}
