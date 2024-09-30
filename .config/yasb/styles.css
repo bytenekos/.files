@@ -19,7 +19,7 @@
 */
 * {
 	font-size: 12px;
-	color: #B8336A;
+	color: #02c9d2;
 	font-weight: 500;
 	font-family: "JetBrainsMono NFP";
 	margin: 0;
@@ -30,8 +30,8 @@
 	margin: 0;
 }
 .widget {
-	background-color: #f08651;
-	padding: 0 8px;
+	background-color: rgba(255, 255, 255, 0);
+	padding: 0 4px;
 	margin: 0;
 }
 .widget .label {
@@ -41,8 +41,7 @@
 	padding: 1px 8px 1px 8px;
 }
 .active-window-widget {
-	border-radius: 6px;
-	margin-left: 6px
+	margin-left: 0px
 }
 .container-left,
 .container-center,
@@ -308,13 +307,4 @@
 }
 .github-widget .icon.new-notification {
     color: #f38ba8;
-}
-.language-widget {
-	border-top-left-radius: 6px;
-	border-bottom-left-radius: 6px;
-}
-
-.clock-widget {
-	border-top-right-radius: 6px;
-	border-bottom-right-radius: 6px;
 }
